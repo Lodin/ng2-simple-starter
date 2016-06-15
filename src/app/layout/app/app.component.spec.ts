@@ -6,18 +6,18 @@ import {
   expect, it, xit,
   async, inject
 } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 
 beforeEachProviders(() => [AppComponent]);
 
 describe('App: Ng2SimpleStarter', () => {
   it('should create the app',
-      inject([AppComponent], (app: AppComponent) => {
-    expect(app).toBeTruthy();
-  }));
+    inject([AppComponent], (app: AppComponent) => {
+      expect(app).toBeTruthy();
+    }));
 
   it('should have as title \'app works!\'',
-      inject([AppComponent], (app: AppComponent) => {
-    expect(app.title).toEqual('app works!');
-  }));
+    inject([AppComponent], (app: AppComponent) => {
+      expect(app.title).toEqual('app works!');
+    }));
 });
