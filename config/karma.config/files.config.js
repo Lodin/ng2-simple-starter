@@ -15,11 +15,11 @@ const shims = [
 
 const dist = [
   'dist/**/*'
-].map(file => ({pattern: file, included: false, watched: true}))
+].map(file => ({pattern: file, included: false, watched: true}));
+
+export const files = [...vendors, ...shims, ...dist];
 
 export const exclude = [
   // Vendor packages might include spec files. We don't want to use those.
   `dist/vendor/**/*.spec.js`
 ];
-
-export const files = [...vendors, ...shims, ...dist];
