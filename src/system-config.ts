@@ -8,11 +8,13 @@
 /** Map relative paths to URLs. */
 const map: any = {
   'babel-runtime': 'vendor/babel-runtime',
+  'core-js': 'vendor/core-js'
 };
 
 /** User packages configuration. */
 const packages: any = {
-  'babel-runtime': {main: 'core-js.js'}
+  'babel-runtime': {main: 'core-js.js'},
+  'core-js': {main: 'index.js'}
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
