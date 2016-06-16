@@ -8,7 +8,7 @@ export const basePath = '..';
 export const frameworks = ['jasmine'];
 
 export const preprocessors = {};
-export const reporters = ['progress', 'coverage'];
+export const reporters = ['spec', 'coverage'];
 export const port = 9876;
 export const colors = true;
 export const logLevel = 'INFO';

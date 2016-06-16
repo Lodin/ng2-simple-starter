@@ -2,7 +2,8 @@ const DEV = process.env['TEST_ENV'] === 'development';
 
 const base = [
   'karma-jasmine',
-  'karma-coverage'
+  'karma-coverage',
+  'karma-spec-reporter'
 ];
 
 const dev = [
