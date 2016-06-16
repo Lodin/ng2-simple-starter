@@ -24,7 +24,7 @@ export const vendorNpmFiles = [
   'systemjs/dist/system-polyfills.js',
   'systemjs/dist/system.src.js',
   'ts-helpers/index.js',
-  'babel-polyfill/dist/polyfill.js',
+  'babel-polyfill/dist/*.js',
 
   'zone.js/dist/**/*.+(js|js.map)',
   'reflect-metadata/**/*.+(js|js.map)',

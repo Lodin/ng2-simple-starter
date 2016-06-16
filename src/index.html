@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Ng2SimpleStarter</title>
   <base href="/">
-
   {{#unless environment.production}}
   <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
   {{/unless}}
@@ -13,9 +12,6 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
-
-  
-
     {{#each scripts.polyfills}}
     <script src="{{.}}"></script>
     {{/each}}
@@ -24,8 +20,5 @@
         System.import('main');
       }).catch(console.error.bind(console));
     </script>
-
-  
-
 </body>
 </html>
