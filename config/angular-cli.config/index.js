@@ -3,7 +3,7 @@ import Babel from 'broccoli-babel-plugin';
 import Funnel from 'broccoli-funnel';
 import MergeTrees from 'broccoli-merge-trees';
 import Postcss from 'broccoli-postcss';
-import Pug from 'broccoli-pug-render';
+import Pug from 'broccoli-pug-plugin';
 import * as Ng2AppConfig from './ng2-app.config';
 import * as PostcssConfig from './postcss.config';
 
@@ -18,7 +18,6 @@ export default defaults => {
   const assets = new Funnel(app, {include: ['**/*.jpg', '**/*.svg']});
 
   return new MergeTrees([
-    app,
     babel,
     postcss,
     pug,
