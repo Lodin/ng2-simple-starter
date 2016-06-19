@@ -56,7 +56,6 @@
     "cross-env": "^1.0.8",
     "ember-cli-inject-live-reload": "1.4.0",
     "gulp": "^3.9.1",
-    "gulp-flatmap": "^1.0.0",
     "gulp-inline-ng2-template": "^2.0.4",
     "html-webpack-plugin": "^2.21.0",
     "istanbul": "^0.4.3",
